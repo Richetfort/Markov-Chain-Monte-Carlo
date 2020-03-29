@@ -137,3 +137,9 @@ Here is an example of function which can be used for decaying the temperature :
 <p align='justify'>
 Such a decaying temperature can remind us the decaying learning rate for a neural network back-propagation.
 </p>
+<p align='justify'>
+  Here is a pretty satistyfing gif illustration of the Simulated Annealing Algorithm with an initial temperature at <i>5000</i>,a decaying rate fixed at <i>0.99</i> and a total of <i>300000</i> iterations :
+</p>
+<p align='center'>
+  <img src="images/simulated_annealing2.gif"
+</p>
