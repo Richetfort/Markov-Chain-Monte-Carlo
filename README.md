@@ -137,7 +137,9 @@ Here is an example of function which can be used for decaying the temperature :
 <p align='justify'>
 Such a decaying temperature can remind us the decaying learning rate for a neural network back-propagation.
 </p>
+
 ## Pseudocode
+
 <p align='center'>
   <img src='images/pseudocode.png'/>
 </p>
@@ -147,3 +149,26 @@ Such a decaying temperature can remind us the decaying learning rate for a neura
 <p align='center'>
   <img src="images/simulated_annealing2.gif"
 </p>
+  
+# Installing
+
+Clone the git project with : 
+```shell
+git clone https://github.com/Protoniac/Markov-Chain-Monte-Carlo.git
+```
+You can either execute :
+```shell
+python3 exhaustive.py
+```
+For an exhaustive research, be sure that the number of city set in the code is small enough to prevent from your laptop blast.
+
+```shell
+python3 nextSwapping.py
+```
+Or
+```shell
+python3 randomSwapping.py
+```
+Where the only difference between the both above files is the definition of what is a *neighbour*.
+
+
