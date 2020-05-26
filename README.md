@@ -16,13 +16,13 @@ The Simulated Annealing algorithm is one of these algorithms, and will be explai
 An exhaustive research is feasible only when the number <i>m</i> of points is small. But since the number of possible route configuration grows by a factorial factor while <i>m</i>  increases, it fastly becomes impossible to compute the best configuration.
 </p>
 <p align='justify'>
-How ever it is still interesting to compute such an algorithm and measure its time of execution while <i>m</i>  increases. 
+However it is still interesting to compute such an algorithm and measure its time of execution while <i>m</i>  increases. 
 </p>
 <p align='justify'>
 First, we need to compute the whole configuration list.
 <p/>
 <p align='justify'>
-There already exist plenty algorithms for listing these configurations, but it tastes always better when it is homemade! 
+There already exist plenty algorithms for listing these configurations, but it tastes always better when it's homemade! 
 Even if the purpose of this report is not to explain precisely how such an algorithm works, you can still find the corresponding python code <i>exhaustive.py</i> in this repository.
 </p>
 <p align='justify'>
